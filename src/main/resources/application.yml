@@ -1,14 +1,3 @@
-management:
-  security:
-    enabled: false
-server:
-  ssl:
-    key-store: classpath:keystore.jks
-    key-store-password: password
-    key-store-type: JKS
-    key-alias: yurt
-    key-password: password
----
 spring:
   profiles: dev
 server:
